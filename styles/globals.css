@@ -8,3 +8,38 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=Rubik:wght@700&display=swap');
+
+.font-loader {
+  font-family: 'IBM Plex Mono', 'serif';
+}
+
+/* ## */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.font-loader1 {
+  font-family: 'Righteous', cursive;
+}
+
+/* ## */
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.font-loader2 {
+  font-family: 'Jua', sans-serif;;
+}
+
+/* ## */
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.font-loader3 {
+  font-family: 'Lilita One', cursive;
+}
+
+.arrow{
+  display: inline-flex;
+  justify-content: flex-start;
+}

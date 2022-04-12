@@ -1,0 +1,159 @@
+   
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=Rubik:wght@700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+Barcode Font ##
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@700&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+.header-container {
+  margin-top: 64px;
+  /* padding-top: 30px; */
+  margin-bottom: 16px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 10px 10px 10px 10px; */
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(59, 59, 82);
+  opacity: 1;
+}
+
+.logo{
+  width: 20px;
+  height: 20px;
+  /* margin-right: 10px; */
+  padding-right: 40px;
+}
+
+.right{
+  display: flex;
+  /* background: rgb(216, 180, 254); */
+  /* background: rgb(191, 219, 254); */
+  /* background-image: linear-gradient(
+    to right,
+    #89AD48 0%,
+    #89AD48 0%,
+    #89AD48 21%,
+    #89AD48 52%,
+    #89AD48 78%,
+    #89AD48 100%
+  ); */
+  border-radius: 16px;
+  padding: 12px 20px;
+  height: 99%;
+  margin-right: -50%;
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px 3px rgb(255, 255, 255, 0.2);
+}
+
+/* See Link:
+<https://stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html>
+*/
+.cancel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 96%;
+    /* bottom: 0; */
+    left: 0;
+    /* padding-bottom: 10px; */
+    font-size: 15.8px;
+}
+
+.arrow-left{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 50px;
+  padding-right: 0px;
+  /* padding-bottom: 30px;
+  padding-top: 20px; */
+}
+
+.cancel-right{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 15px;
+    padding-left: 0px;
+}
+
+.wallet-button-container{
+    /* color: #CCD0D1;
+    color: #000000; */
+    font-family: 'IBM Plex Mono', serif;
+    font-size: 18px;
+    background-color: bisque;
+}
+
+/*
+.backlink {
+    display: inline-block;
+    justify-content:left;
+    margin-left: 50%;
+
+}
+*/
+
+/*
+.button-container{
+  color: #CCD0D1;
+  color: #000000;
+  font-family: 'IBM Plex Mono', serif;
+  font-size: 18px;
+}
+*/
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 40px;
+}
+
+.footer-text {
+  color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 10px;
+  /* font-family: 'IBM Plex Mono', serif; */
+  /* font-family: 'Jua', sans-serif; */
+}
+
+/* .Footer {
+    font-family: 'IBM Plex Mono', serif;
+} */
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
